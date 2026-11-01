@@ -19,7 +19,7 @@
   </div></header>
   <main id="main">
     <h1>Privacy policy</h1>
-    <p class="updated">For Hopper. Last updated: <time datetime="2026-10-28">28 October 2026</time>.</p>
+    <p class="updated">For Hopper. Last updated: <time datetime="2026-11-01">1 November 2026</time>.</p>
     <h2>Scope and privacy contact</h2>
     <p>This policy describes current data handling in Hopper, an Android app with nearby communication and internet-connected social features, and on this legal-information website. Hopper is the app name; this notice does not represent that a separately incorporated company exists.</p>
     <p>For privacy questions or account-data requests, contact <a href="mailto:hopper-7827@gmail.com">hopper-7827@gmail.com</a>. See <a href="deletion.html">Account-data deletion</a> for the request steps and current completion limits.</p>
@@ -36,6 +36,10 @@
     <p>Bluetooth and location-related permissions support nearby discovery and location features. Camera, microphone and media-access permissions support creating or selecting photos, audio, video and files. Permissions depend on the feature and Android version. Granting a permission does not itself mean that every item or your precise location is published to a relay.</p>
     <p>Places, nearby activity and optional location sharing can reveal an area, presence or location-related information. Public SOS and location-scoped content can identify a posting area. A coarse geohash is not a guarantee of anonymity. Review the audience before sharing; Hopper must not be treated as a guaranteed emergency-response service.</p>
     <p>External place search and location-name lookups can send entered search text or latitude and longitude, together with language and connection information, to a geocoding provider. Current OpenStreetMap/Nominatim location-name lookups can include precise coordinates. An approximate public posting area does not mean that an external lookup receives only approximate coordinates.</p>
+    <h3>QR scanning and SDK diagnostics</h3>
+    <p>Hopper uses Google's bundled ML Kit barcode scanner for QR verification. QR image processing takes place on your device; this does not mean that the scanner sends no other information to Google. Google's SDK documentation describes transmission of diagnostics and usage metrics, including device and app information, an identifier for the app installation, performance measurements, scanner configuration, input/output sizes, feature-use events and error codes. Google describes HTTPS protection for these metrics and their use for diagnostics and usage analytics. See the <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit data disclosure</a> and <a href="https://developers.google.com/ml-kit/terms">ML Kit terms</a>. Hopper does not offer a verified app-wide switch to disable all SDK metrics or a verified retention period for them.</p>
+    <h3>Live voice rooms</h3>
+    <p>When you join a live voice room, the configured room service handles connection and session information. If you enable your microphone, audio is sent through that service to the room participants. Transport protection alone does not establish that the room service cannot access audio; do not assume that live rooms have the same end-to-end encryption guarantees as private-message bodies. Room services and participants can have their own retention practices.</p>
     <h3>Safety reports</h3>
     <p>Reports can include a reason, the reported content, an evidence snapshot and a reporter public key. Reports are routed through encrypted message envelopes to the configured safety-review recipient; routing metadata may remain visible to relays. Submitting a report does not prove that a reviewer received or reviewed it. Report retention and end-to-end review operations have not yet been verified.</p>
     <h2>Purposes and sharing</h2>
